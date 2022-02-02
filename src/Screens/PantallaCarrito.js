@@ -34,7 +34,7 @@ const PantallaCarrito = () => {
     }, [])
 
     return (
-        <SafeAreaView>
+        <SafeAreaView style={styles.mainContainer}>
 
             <FlatList
                 style={styles.lista}
